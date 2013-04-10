@@ -12,3 +12,5 @@ augroup custom
   au FileType python set sw=4 sts=4 et
   au BufRead,BufNewFile Vagrantfile set ft=ruby
 augroup END
+
+map ,t :FufFile<enter>
